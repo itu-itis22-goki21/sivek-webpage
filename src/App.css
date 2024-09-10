@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b1b1b1;
+}
+.container{
+  max-width: 85%;
+  margin: auto;
+}
+.flexSB{
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  
+  font-size: 24px;
+  margin-right: 10px; /* Adds space to the right of the icon */
+  margin-left: 10px;
+  padding: 5px; /* Adds padding around the icon */
+  border-radius: 50%; /* Makes the icon rounded */
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #030077;
+  transition: 0.9s;
+}
+.icon:hover{
+  cursor: pointer;
+  background-color: #030077;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow on hover */
+}
+.icon.large {
+  font-size: 48px; /* Larger size, can be applied conditionally */
+}
+a{
+  text-decoration: none;
+  color: rgb(11, 7, 26);
+}
+li{
+  list-style-type: none;
+}
+.logo1{
+  width: 100px;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .grid2,
+  .grid3,
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .back {
+    background-position: center;
+    padding-top: 50%;
+    height: 80vh;
+  }
+}
+.primary-btn {
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #1eb2a6;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+}
+button i {
+  margin-left: 20px;
+}
+.primary-btn :hover {
+  box-shadow: none;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}

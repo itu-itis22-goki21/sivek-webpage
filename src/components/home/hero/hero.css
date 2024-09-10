@@ -1,0 +1,15 @@
+.hero{
+    background-image: url("../../../../public/main_menu.jpg");
+    background-size:contain;
+    background-attachment: scroll;
+    position:relative;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    padding-top: 50%;
+    padding-right: 100px;
+    color:antiquewhite;
+    display: block;
+}

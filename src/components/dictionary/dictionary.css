@@ -1,0 +1,36 @@
+.dictItems {
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-left: 40px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out, transform 0.1s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: default;
+}
+.dictItems:hover {
+  background-color: rgb(155, 155, 155);
+  transform: scale(1.01); /* Slight zoom effect */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+.dictItems strong{
+  color:#000076
+}
+.dictTitle{
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: solid;
+  color: #000076;
+  cursor: default;
+}
+.searchBar{
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 300px;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-right: 10px;
+  border-radius: 15px;
+
+}
